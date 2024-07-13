@@ -1,5 +1,5 @@
 Phần mềm trích xuất dữ liệu thông qua trang web FireAnt
-Bản cập nhật ngày 12/07/2024
+Bản cập nhật ngày 13/07/2024
 
 Chức năng hiện có:
 
