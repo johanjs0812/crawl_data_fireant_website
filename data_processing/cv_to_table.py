@@ -32,7 +32,7 @@ def convert_to_table_data(driver, time_out, limit_years, baocaotaichinh):
         
         # Nếu không tìm thấy, tiếp tục click vào button pagination để chuyển sang trang tiếp theo
         clicked = click_pagination(driver, "//button[@class='inline-flex items-center justify-center text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-primary text-primary-foreground hover:bg-primary/90 h-7 px-2 rounded-md mr-2']", time_out)
-        print('lovedddd', clicked)
+        
         # Nếu không click được (button bị disabled hoặc không tìm thấy), dừng vòng lặp
         if not clicked:
             print("Không thể click vào button pagination, dừng vòng lặp.")
